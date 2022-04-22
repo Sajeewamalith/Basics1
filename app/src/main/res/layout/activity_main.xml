@@ -13,20 +13,21 @@
         android:text="Happy Birthday, Ben!"
         android:textAllCaps="true"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="36sp"
         android:textStyle="italic"/>
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidparty"/>
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:text="From Lyla."
-        android:textSize="18sp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:textSize="36sp" />
 
 </RelativeLayout>
