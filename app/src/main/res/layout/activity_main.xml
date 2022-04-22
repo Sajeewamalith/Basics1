@@ -7,19 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday, Ben!"
         android:textAllCaps="true"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="36sp"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:layout_margin="20dp"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:src="@drawable/androidparty" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,6 +31,7 @@
         android:text="From Lyla."
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:padding="20dp"/>
 
 </RelativeLayout>
